@@ -1,0 +1,4 @@
+environment: {}
+training:
+  history: 16
+  steps: 250000

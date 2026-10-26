@@ -1,0 +1,17 @@
+# Implementation decisions and execution record
+
+- 24 October: retained the approved eight-channel, deadline-aware simulation scope and observation/action/reward contracts.
+- Found Python 3.14 in the system, but used the bundled Python 3.12.14 in a project-local virtual environment. Dependencies were downloaded into that environment after network escalation was approved.
+- GPU is not exposed to this execution environment. CPU PyTorch 2.14.1 was installed for verified local execution. This says nothing about CUDA availability on the user's RTX 4060 laptop; commands support CUDA there after installing a matching build.
+- Protected empty `.git` could not host history; preserved it and used `.development-history`. A release checkout will contain conventional Git metadata.
+- First 24 tests passed, including exact same-platform save/resume and the analytical IID success check.
+- A 20,000-step mixed-family H=16 pilot (seed 7, excluded from final statistics) completed in 18.87 seconds including validation, about 1,060 steps/second. Validation delivery changed from 0.6278 to 0.6326; this is a pilot observation, not evidence of a reliable improvement.
+- Froze the core campaign at 250,000 steps × two history lengths × three seeds. No hyperparameter grid search is used for the neural agent. Two independent CPU runs may proceed concurrently after the single-process pilot, each with one PyTorch thread; no distributed/GPU training system is introduced.
+- Uncertainty is represented by all trained seed values and their range. A hierarchical confidence interval is deferred because three seeds provide limited precision.
+- Baselines use training/validation only for settings. Final test outcomes remain untouched until all core checkpoints and settings are fixed.
+- Recurrent learning, additional RL algorithms, real hardware, and retrained cost/reward ablations are deferred to protect the deadline.
+- The user subsequently confirmed sufficient time and requested prioritizing implementation quality. Team metadata is Ayush Singh (B23EE1008), Tashir Ahmad (B23ME1074), repository https://github.com/Ayush-Singh-as/DeadlineHop. The frozen experimental budget remains unchanged so comparisons stay consistent.
+- All six 250,000-step runs completed. Post-training maintenance corrected the validation label on local `last.pt` checkpoints (selected `best.pt` labels were already correct), added a resume-mode guard and argument validation, and cached evaluator source hashing. These changes do not alter observations, actions, learning updates, selected weights, or evaluation metrics. Training provenance retains the original source hash/commit; evaluation records its own version. Full replay resume files remain local and require matching source.
+- Frozen final evaluation completed: 4,800 episodes. Structured delivery is 90.80% for H=16, 94.06% for H=1, and 94.56% for the strongest conventional predictor. The longer-history advantage is not supported. No tuning was performed on these test outcomes.
+- The test suite grew to 34 meaningful checks. An isolated wheel installation reproduced all fields of five held-out episodes exactly. Artifact auditing reconciles all final packet counts and rewards and verifies selected-checkpoint hashes against validation logs.
+- The final report is generated using ReportLab rather than LaTeX; it meets the requested two-column, two-content-page format with a references-only third page. Team details and the supplied repository URL are included.

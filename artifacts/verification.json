@@ -1,0 +1,10 @@
+{
+  "evaluated_episodes": 4800,
+  "trained_checkpoints": 6,
+  "training_steps": 1500000,
+  "test_slots": 2457600,
+  "report_content_pages": 2,
+  "report_reference_pages": 1,
+  "suite_sha256": "6f5ff7ab75614df1a40b6f2137f2f99fde53ccf53066d4729526334127ea3a4e",
+  "checks": "packet conservation, reward reconciliation, checkpoint hashes, validation-only selection, complete suites, report metadata"
+}

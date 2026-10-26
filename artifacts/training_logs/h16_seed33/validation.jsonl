@@ -1,0 +1,11 @@
+{"step": 0, "delivery": 0.6228781063289409, "energy_per_delivery": 9.164235140486824, "elapsed_seconds": 3.467432712000118}
+{"step": 25000, "delivery": 0.6485993586268088, "energy_per_delivery": 4.889450400504428, "elapsed_seconds": 22.658481472999938}
+{"step": 50000, "delivery": 0.8190776474183092, "energy_per_delivery": 1.7954074032772858, "elapsed_seconds": 46.29962099000022}
+{"step": 75000, "delivery": 0.8811894580752992, "energy_per_delivery": 1.528155492052592, "elapsed_seconds": 70.95958041799986}
+{"step": 100000, "delivery": 0.8819676193736011, "energy_per_delivery": 1.476910018645362, "elapsed_seconds": 105.22079772100005}
+{"step": 125000, "delivery": 0.8829093808545968, "energy_per_delivery": 1.4615460542062921, "elapsed_seconds": 142.7125132189999}
+{"step": 150000, "delivery": 0.8915474290174549, "energy_per_delivery": 1.4993261023153064, "elapsed_seconds": 179.43213021300016}
+{"step": 175000, "delivery": 0.9062683620615702, "energy_per_delivery": 1.4236560456955278, "elapsed_seconds": 213.4997739280002}
+{"step": 200000, "delivery": 0.885888156511705, "energy_per_delivery": 1.435736831710944, "elapsed_seconds": 246.35562064099986}
+{"step": 225000, "delivery": 0.9036833831466418, "energy_per_delivery": 1.4338946405757762, "elapsed_seconds": 279.34766525199984}
+{"step": 250000, "delivery": 0.8910888403917574, "energy_per_delivery": 1.4119228821813057, "elapsed_seconds": 309.25084570399986}

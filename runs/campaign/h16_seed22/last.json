@@ -1,0 +1,78 @@
+{
+  "schema": "radio48-v1",
+  "config": {
+    "environment": {
+      "channels": 8,
+      "capacity": 8,
+      "arrival_slots": 500,
+      "max_deadline": 12,
+      "deadlines": [
+        4,
+        8,
+        12
+      ],
+      "arrival_probability": 0.6,
+      "clean_success": 0.98,
+      "interference_multiplier": 0.02,
+      "retune_slots": 1,
+      "family": "sweep",
+      "width": 3,
+      "move_probability": 0.5,
+      "direction": 1,
+      "burst_entry": 0.1,
+      "burst_persistence": 0.8,
+      "detection_probability": 0.8,
+      "response_delay": 2,
+      "response_dwell": 3,
+      "switch_times": [
+        150,
+        350
+      ],
+      "modes": [
+        "sweep",
+        "burst",
+        "follower"
+      ]
+    },
+    "training": {
+      "history": 16,
+      "hidden": 128,
+      "steps": 250000,
+      "gamma": 0.99,
+      "learning_rate": 0.0003,
+      "batch_size": 64,
+      "replay_capacity": 50000,
+      "warmup": 5000,
+      "update_every": 4,
+      "target_every": 1000,
+      "epsilon_steps": 100000,
+      "epsilon_final": 0.05,
+      "validation_every": 25000,
+      "threads": 1
+    }
+  },
+  "metadata": {
+    "seed": 22,
+    "step": 250000,
+    "validation_delivery": 0.8890219775053633,
+    "device": "cpu",
+    "elapsed_seconds": 307.266759179,
+    "config_sha256": "b9e6b77989af9ce851bf3cda0f5c6497266059f54082a8239b7022589831b2a6",
+    "validation_sha256": "aff1a1a1954dd99a5ccd74c5146802f086b15ac0e9cd3115b5f40e09b9aab863",
+    "provenance": {
+      "source_sha256": "94ad59fa5e06eb303e7d6c5f11e9f261a0a7d28ca9c9527804e5acb769121eba",
+      "commit": "014b073077a7f43a963bd844666dc2aad8fa5269",
+      "dirty": true,
+      "python": "3.12.14",
+      "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+      "packages": {
+        "torch": "2.14.1+cpu",
+        "numpy": "2.5.4",
+        "gymnasium": "1.4.0",
+        "matplotlib": "3.11.2",
+        "PyYAML": "6.0.3"
+      }
+    }
+  },
+  "checkpoint_sha256": "9e3bd8a8098f0164ba0044c1060eef68f98a96c86a87ccd1883d2440deeebd84"
+}

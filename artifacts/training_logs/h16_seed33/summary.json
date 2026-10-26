@@ -1,0 +1,8 @@
+{
+  "steps": 250000,
+  "executed_steps": 250000,
+  "seconds": 309.4394779539998,
+  "steps_per_second": 807.9124281523126,
+  "best_delivery": 0.9062683620615702,
+  "device": "cpu"
+}

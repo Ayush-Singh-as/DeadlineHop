@@ -1,0 +1,3047 @@
+{
+  "version": 1,
+  "split": "validation",
+  "records": [
+    {
+      "id": "validation-0000",
+      "seed": 100000,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3877804237761894,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.7487647398397346,
+        "direction": -1,
+        "burst_entry": 0.1730311992355011,
+        "burst_persistence": 0.6037945245644456,
+        "detection_probability": 0.8290143669777664,
+        "response_delay": 2,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0001",
+      "seed": 100001,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4110533856174816,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 2,
+        "move_probability": 0.7173617451079721,
+        "direction": 1,
+        "burst_entry": 0.1999490583194487,
+        "burst_persistence": 0.6367590912326846,
+        "detection_probability": 0.6738904540019914,
+        "response_delay": 1,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0002",
+      "seed": 100002,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6094665706580771,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.6945341181002833,
+        "direction": 1,
+        "burst_entry": 0.070677255838258,
+        "burst_persistence": 0.7372930570910999,
+        "detection_probability": 0.6086968023768291,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0003",
+      "seed": 100003,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.47701599243593507,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.33969367012159113,
+        "direction": -1,
+        "burst_entry": 0.1746433092752659,
+        "burst_persistence": 0.6650938366476667,
+        "detection_probability": 0.7017133766294685,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0004",
+      "seed": 100004,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5540287851845942,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.7128312041354958,
+        "direction": 1,
+        "burst_entry": 0.063621548732373,
+        "burst_persistence": 0.7075551894253771,
+        "detection_probability": 0.9235241905307935,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0005",
+      "seed": 100005,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3511551111215337,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.2629174032890035,
+        "direction": 1,
+        "burst_entry": 0.051014363909851604,
+        "burst_persistence": 0.6233076416434182,
+        "detection_probability": 0.9374982565027762,
+        "response_delay": 2,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0006",
+      "seed": 100006,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5363089444554079,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 2,
+        "move_probability": 0.6253418401582564,
+        "direction": -1,
+        "burst_entry": 0.11605881038364979,
+        "burst_persistence": 0.8842516623696028,
+        "detection_probability": 0.9741452251338014,
+        "response_delay": 1,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0007",
+      "seed": 100007,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5373083960330964,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.39124362431860304,
+        "direction": 1,
+        "burst_entry": 0.16711818488180322,
+        "burst_persistence": 0.8169180561557396,
+        "detection_probability": 0.9975218274376269,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0008",
+      "seed": 100008,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5775105944787962,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.3593022604563485,
+        "direction": -1,
+        "burst_entry": 0.17884156093852327,
+        "burst_persistence": 0.7846219218644404,
+        "detection_probability": 0.877483793388119,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0009",
+      "seed": 100009,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5456837373820567,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.7020696020054671,
+        "direction": -1,
+        "burst_entry": 0.1769500128109343,
+        "burst_persistence": 0.6907089402055068,
+        "detection_probability": 0.8752943802707551,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0010",
+      "seed": 100010,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6223440573605676,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 2,
+        "move_probability": 0.7233427237040826,
+        "direction": 1,
+        "burst_entry": 0.18817136906215026,
+        "burst_persistence": 0.8541584776644895,
+        "detection_probability": 0.6100622194462455,
+        "response_delay": 1,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0011",
+      "seed": 100011,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4157485491449594,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.6118963748097712,
+        "direction": 1,
+        "burst_entry": 0.11271970784286311,
+        "burst_persistence": 0.6290532416780356,
+        "detection_probability": 0.8899334802525025,
+        "response_delay": 2,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0012",
+      "seed": 100012,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6313028793453753,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 2,
+        "move_probability": 0.35894046195002943,
+        "direction": 1,
+        "burst_entry": 0.17486861071218202,
+        "burst_persistence": 0.6545889276930436,
+        "detection_probability": 0.8941139362513502,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0013",
+      "seed": 100013,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.48353004501253577,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.2813577189987961,
+        "direction": 1,
+        "burst_entry": 0.12536488923190714,
+        "burst_persistence": 0.7288272422228026,
+        "detection_probability": 0.8885562588548677,
+        "response_delay": 1,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0014",
+      "seed": 100014,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4719473936332496,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 2,
+        "move_probability": 0.6361950889258899,
+        "direction": 1,
+        "burst_entry": 0.15935911746808681,
+        "burst_persistence": 0.7109992830323817,
+        "detection_probability": 0.6755808687024326,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0015",
+      "seed": 100015,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6136572180680497,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.4865856812402116,
+        "direction": 1,
+        "burst_entry": 0.18525110210723872,
+        "burst_persistence": 0.8546340199216538,
+        "detection_probability": 0.6037673186498894,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0016",
+      "seed": 100016,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5111963887755459,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 2,
+        "move_probability": 0.6112390024131709,
+        "direction": 1,
+        "burst_entry": 0.1856284209347422,
+        "burst_persistence": 0.7216048379100464,
+        "detection_probability": 0.9107476066551925,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0017",
+      "seed": 100017,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3907910363230072,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 4,
+        "move_probability": 0.6307515737481146,
+        "direction": -1,
+        "burst_entry": 0.16279885291126217,
+        "burst_persistence": 0.8962226367745287,
+        "detection_probability": 0.9288166003437224,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0018",
+      "seed": 100018,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4917026340635207,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.6550927989556841,
+        "direction": -1,
+        "burst_entry": 0.1140253989346698,
+        "burst_persistence": 0.7993744484466458,
+        "detection_probability": 0.7547622094773639,
+        "response_delay": 1,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0019",
+      "seed": 100019,
+      "group": "sweep",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6216026165040226,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "sweep",
+        "width": 3,
+        "move_probability": 0.5115788976867204,
+        "direction": -1,
+        "burst_entry": 0.15323719381999218,
+        "burst_persistence": 0.8280758700363182,
+        "detection_probability": 0.7966370667173768,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0020",
+      "seed": 100020,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4378403009633074,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.6965534453185825,
+        "direction": -1,
+        "burst_entry": 0.17536436788897058,
+        "burst_persistence": 0.6243033081307096,
+        "detection_probability": 0.7095253122522063,
+        "response_delay": 2,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0021",
+      "seed": 100021,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3599395468217079,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 2,
+        "move_probability": 0.27406651968794254,
+        "direction": -1,
+        "burst_entry": 0.05095237611210604,
+        "burst_persistence": 0.6298467695849987,
+        "detection_probability": 0.9278992896420211,
+        "response_delay": 3,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0022",
+      "seed": 100022,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6160731929119307,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.5910552589228558,
+        "direction": -1,
+        "burst_entry": 0.1017893207442183,
+        "burst_persistence": 0.7563320419184458,
+        "detection_probability": 0.9088375692813653,
+        "response_delay": 1,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0023",
+      "seed": 100023,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.49905642034831565,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.5112925731528124,
+        "direction": -1,
+        "burst_entry": 0.08990580744611673,
+        "burst_persistence": 0.7602345880363017,
+        "detection_probability": 0.8112733972666781,
+        "response_delay": 2,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0024",
+      "seed": 100024,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.40540746962066543,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 4,
+        "move_probability": 0.6288786603083418,
+        "direction": 1,
+        "burst_entry": 0.1296941869617419,
+        "burst_persistence": 0.7790442825477941,
+        "detection_probability": 0.7735257516693228,
+        "response_delay": 2,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0025",
+      "seed": 100025,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5950632936379231,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 4,
+        "move_probability": 0.36112962179684055,
+        "direction": 1,
+        "burst_entry": 0.15979312031526555,
+        "burst_persistence": 0.6461879165245675,
+        "detection_probability": 0.8760410585312313,
+        "response_delay": 2,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0026",
+      "seed": 100026,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.43238728484162847,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.6542546434452938,
+        "direction": -1,
+        "burst_entry": 0.126409403745117,
+        "burst_persistence": 0.8612849239312734,
+        "detection_probability": 0.6793693664457636,
+        "response_delay": 1,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0027",
+      "seed": 100027,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.43769885252952134,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.5049851579069163,
+        "direction": 1,
+        "burst_entry": 0.05215654937747477,
+        "burst_persistence": 0.6674964760961131,
+        "detection_probability": 0.8182228613367443,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0028",
+      "seed": 100028,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3511614791345393,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 4,
+        "move_probability": 0.49205924544877544,
+        "direction": 1,
+        "burst_entry": 0.19379834470390217,
+        "burst_persistence": 0.7370466813265498,
+        "detection_probability": 0.7298274539423166,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0029",
+      "seed": 100029,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6396728951962916,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.3800282015344443,
+        "direction": 1,
+        "burst_entry": 0.07543467045921104,
+        "burst_persistence": 0.6318426909912906,
+        "detection_probability": 0.6876567929842825,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0030",
+      "seed": 100030,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3815537273122437,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.4496614796494864,
+        "direction": 1,
+        "burst_entry": 0.17655239475671847,
+        "burst_persistence": 0.8656926175767217,
+        "detection_probability": 0.6363860990000698,
+        "response_delay": 1,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0031",
+      "seed": 100031,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5950700087061327,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 2,
+        "move_probability": 0.3085255978106921,
+        "direction": 1,
+        "burst_entry": 0.09936276897361215,
+        "burst_persistence": 0.751687771491655,
+        "detection_probability": 0.9591057828550548,
+        "response_delay": 2,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0032",
+      "seed": 100032,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.36704933777027526,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 2,
+        "move_probability": 0.7268707237942151,
+        "direction": 1,
+        "burst_entry": 0.16389292612177897,
+        "burst_persistence": 0.7416529767505943,
+        "detection_probability": 0.7844304515640514,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0033",
+      "seed": 100033,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.40109286091610635,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 2,
+        "move_probability": 0.2680344803463854,
+        "direction": 1,
+        "burst_entry": 0.08903920386756581,
+        "burst_persistence": 0.6520423491189431,
+        "detection_probability": 0.9273239493580011,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0034",
+      "seed": 100034,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.46004541541268634,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 2,
+        "move_probability": 0.5277469553907532,
+        "direction": 1,
+        "burst_entry": 0.13818964762206193,
+        "burst_persistence": 0.8669458444200728,
+        "detection_probability": 0.8027461446427517,
+        "response_delay": 1,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0035",
+      "seed": 100035,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.41119076137660593,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 4,
+        "move_probability": 0.6580358216315302,
+        "direction": -1,
+        "burst_entry": 0.10130285271491549,
+        "burst_persistence": 0.8134511582775013,
+        "detection_probability": 0.647305531993226,
+        "response_delay": 2,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0036",
+      "seed": 100036,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5019178373789556,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.6764950457411425,
+        "direction": 1,
+        "burst_entry": 0.11781751596698609,
+        "burst_persistence": 0.7204252947138184,
+        "detection_probability": 0.896937822595378,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0037",
+      "seed": 100037,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6449356712839762,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 2,
+        "move_probability": 0.7155296078144153,
+        "direction": -1,
+        "burst_entry": 0.07130964917888347,
+        "burst_persistence": 0.6280551927061878,
+        "detection_probability": 0.9476982742476718,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0038",
+      "seed": 100038,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.47465571094988424,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.5564172455302547,
+        "direction": 1,
+        "burst_entry": 0.14872451357077582,
+        "burst_persistence": 0.8203898842096169,
+        "detection_probability": 0.8473177625457983,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0039",
+      "seed": 100039,
+      "group": "burst",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5863267166546444,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "burst",
+        "width": 3,
+        "move_probability": 0.6617069076829531,
+        "direction": -1,
+        "burst_entry": 0.14410079866605466,
+        "burst_persistence": 0.8744759950753866,
+        "detection_probability": 0.8793361153129879,
+        "response_delay": 2,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0040",
+      "seed": 100040,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6010830359540593,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.38443491826677556,
+        "direction": 1,
+        "burst_entry": 0.08806951260472659,
+        "burst_persistence": 0.6226910571095227,
+        "detection_probability": 0.7132647623241196,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0041",
+      "seed": 100041,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5667368535452435,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.4836235651885139,
+        "direction": -1,
+        "burst_entry": 0.09295694823670789,
+        "burst_persistence": 0.6099295165558252,
+        "detection_probability": 0.9764014934354058,
+        "response_delay": 3,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0042",
+      "seed": 100042,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4372593483623724,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.4120390145045941,
+        "direction": -1,
+        "burst_entry": 0.16611865453755645,
+        "burst_persistence": 0.8248402508797162,
+        "detection_probability": 0.8853627067763941,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0043",
+      "seed": 100043,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6093249653958148,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.5685587629926716,
+        "direction": -1,
+        "burst_entry": 0.19280244038246447,
+        "burst_persistence": 0.7272464342228306,
+        "detection_probability": 0.8086886424513813,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0044",
+      "seed": 100044,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6023890398089923,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.39311289308281694,
+        "direction": 1,
+        "burst_entry": 0.0931820286548446,
+        "burst_persistence": 0.6250106720530791,
+        "detection_probability": 0.6069321152829666,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0045",
+      "seed": 100045,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.597085465439888,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.26123782667999357,
+        "direction": -1,
+        "burst_entry": 0.07140156498900586,
+        "burst_persistence": 0.752793859705241,
+        "detection_probability": 0.8054545228735228,
+        "response_delay": 1,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0046",
+      "seed": 100046,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.45982576492124666,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.2831431644838184,
+        "direction": -1,
+        "burst_entry": 0.07886026511414904,
+        "burst_persistence": 0.6111831425341018,
+        "detection_probability": 0.9347897069908475,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0047",
+      "seed": 100047,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6258303045384922,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 3,
+        "move_probability": 0.6476701764590711,
+        "direction": -1,
+        "burst_entry": 0.17746652064704344,
+        "burst_persistence": 0.7535421153456672,
+        "detection_probability": 0.8170266761865264,
+        "response_delay": 1,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0048",
+      "seed": 100048,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.40978436782384564,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.577856425193729,
+        "direction": 1,
+        "burst_entry": 0.13629456982353305,
+        "burst_persistence": 0.6193544084270335,
+        "detection_probability": 0.9139341153422273,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0049",
+      "seed": 100049,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5277015699044328,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.5662529049064402,
+        "direction": -1,
+        "burst_entry": 0.15062040061454737,
+        "burst_persistence": 0.6035567323813771,
+        "detection_probability": 0.8980995008113395,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0050",
+      "seed": 100050,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4023109566561196,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.6464526524965041,
+        "direction": -1,
+        "burst_entry": 0.06243235256049065,
+        "burst_persistence": 0.6290434616559747,
+        "detection_probability": 0.7674955795968601,
+        "response_delay": 2,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0051",
+      "seed": 100051,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5693705135836206,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.5863391238161195,
+        "direction": -1,
+        "burst_entry": 0.12298502124647812,
+        "burst_persistence": 0.8763479157307665,
+        "detection_probability": 0.9545370144651729,
+        "response_delay": 1,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0052",
+      "seed": 100052,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6458797838625587,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.28044446783941684,
+        "direction": -1,
+        "burst_entry": 0.15337194979765992,
+        "burst_persistence": 0.8611540102627092,
+        "detection_probability": 0.7463064664076393,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0053",
+      "seed": 100053,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5476011488822932,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.7390949730855213,
+        "direction": -1,
+        "burst_entry": 0.18511643491366409,
+        "burst_persistence": 0.6298339239027457,
+        "detection_probability": 0.7466565868751347,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0054",
+      "seed": 100054,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6020397385541605,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.5951126630667741,
+        "direction": -1,
+        "burst_entry": 0.14850354944590194,
+        "burst_persistence": 0.7781907528660768,
+        "detection_probability": 0.6043485408173115,
+        "response_delay": 2,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0055",
+      "seed": 100055,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5897977750898888,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.537681943970469,
+        "direction": 1,
+        "burst_entry": 0.1494937298455269,
+        "burst_persistence": 0.6694835145071187,
+        "detection_probability": 0.6696016238755812,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0056",
+      "seed": 100056,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5571268894040212,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.7042083119542073,
+        "direction": 1,
+        "burst_entry": 0.19834671263202575,
+        "burst_persistence": 0.6493247847687162,
+        "detection_probability": 0.992490011459175,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0057",
+      "seed": 100057,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.42526915442666724,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 2,
+        "move_probability": 0.44419304033560947,
+        "direction": -1,
+        "burst_entry": 0.06430525839522135,
+        "burst_persistence": 0.6055654422872215,
+        "detection_probability": 0.9550596970693149,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0058",
+      "seed": 100058,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5711373773053673,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 4,
+        "move_probability": 0.3627091607265244,
+        "direction": 1,
+        "burst_entry": 0.08329855123945049,
+        "burst_persistence": 0.6975556148537251,
+        "detection_probability": 0.6718062194041448,
+        "response_delay": 2,
+        "response_dwell": 3,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0059",
+      "seed": 100059,
+      "group": "follower",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3850550427428856,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "follower",
+        "width": 3,
+        "move_probability": 0.5270323263873748,
+        "direction": 1,
+        "burst_entry": 0.15166607416800904,
+        "burst_persistence": 0.8908566439995382,
+        "detection_probability": 0.7659676691533004,
+        "response_delay": 1,
+        "response_dwell": 5,
+        "switch_times": [
+          150,
+          350
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0060",
+      "seed": 100060,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.35335878939832227,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.6749750068433307,
+        "direction": -1,
+        "burst_entry": 0.06192105521592896,
+        "burst_persistence": 0.7762693919058458,
+        "detection_probability": 0.8278544131975096,
+        "response_delay": 3,
+        "response_dwell": 4,
+        "switch_times": [
+          140,
+          328
+        ],
+        "modes": [
+          "follower",
+          "sweep",
+          "burst"
+        ]
+      }
+    },
+    {
+      "id": "validation-0061",
+      "seed": 100061,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.581599463997583,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.31218093660306334,
+        "direction": 1,
+        "burst_entry": 0.060533132713177715,
+        "burst_persistence": 0.7481760232238759,
+        "detection_probability": 0.9014119849933835,
+        "response_delay": 2,
+        "response_dwell": 3,
+        "switch_times": [
+          268,
+          380
+        ],
+        "modes": [
+          "burst",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0062",
+      "seed": 100062,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5960410549447847,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 2,
+        "move_probability": 0.3730117753207426,
+        "direction": -1,
+        "burst_entry": 0.07929115961627235,
+        "burst_persistence": 0.8331890639998705,
+        "detection_probability": 0.6176222346629864,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          193,
+          305
+        ],
+        "modes": [
+          "sweep",
+          "follower",
+          "sweep"
+        ]
+      }
+    },
+    {
+      "id": "validation-0063",
+      "seed": 100063,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.37322203855195574,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.36450912947213765,
+        "direction": -1,
+        "burst_entry": 0.16036373334955312,
+        "burst_persistence": 0.7358635001338585,
+        "detection_probability": 0.8704595345615102,
+        "response_delay": 2,
+        "response_dwell": 5,
+        "switch_times": [
+          146,
+          395
+        ],
+        "modes": [
+          "burst",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0064",
+      "seed": 100064,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5808049498542964,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.704822959976306,
+        "direction": -1,
+        "burst_entry": 0.16632622245545547,
+        "burst_persistence": 0.8479883060017237,
+        "detection_probability": 0.9427113494519411,
+        "response_delay": 1,
+        "response_dwell": 4,
+        "switch_times": [
+          189,
+          334
+        ],
+        "modes": [
+          "follower",
+          "sweep",
+          "burst"
+        ]
+      }
+    },
+    {
+      "id": "validation-0065",
+      "seed": 100065,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.3703897824575212,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.7387109505719583,
+        "direction": 1,
+        "burst_entry": 0.17016103084738193,
+        "burst_persistence": 0.8805475634059066,
+        "detection_probability": 0.9918725792206007,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          119,
+          240
+        ],
+        "modes": [
+          "follower",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0066",
+      "seed": 100066,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.4979312179544131,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.3165169380739118,
+        "direction": 1,
+        "burst_entry": 0.06107259605597043,
+        "burst_persistence": 0.6552028142395575,
+        "detection_probability": 0.807111006479611,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          102,
+          360
+        ],
+        "modes": [
+          "sweep",
+          "follower",
+          "sweep"
+        ]
+      }
+    },
+    {
+      "id": "validation-0067",
+      "seed": 100067,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5126561606595958,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.31233165655628536,
+        "direction": 1,
+        "burst_entry": 0.10600978584706906,
+        "burst_persistence": 0.6944194474872266,
+        "detection_probability": 0.6456781939681219,
+        "response_delay": 3,
+        "response_dwell": 2,
+        "switch_times": [
+          195,
+          317
+        ],
+        "modes": [
+          "sweep",
+          "follower",
+          "burst"
+        ]
+      }
+    },
+    {
+      "id": "validation-0068",
+      "seed": 100068,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5885088667356616,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.3383570188703443,
+        "direction": 1,
+        "burst_entry": 0.1551405493186327,
+        "burst_persistence": 0.7226401791340058,
+        "detection_probability": 0.6542034084621147,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          142,
+          255
+        ],
+        "modes": [
+          "burst",
+          "sweep",
+          "burst"
+        ]
+      }
+    },
+    {
+      "id": "validation-0069",
+      "seed": 100069,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5451246414025157,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.614007573591419,
+        "direction": -1,
+        "burst_entry": 0.12635067002369266,
+        "burst_persistence": 0.8665442245984878,
+        "detection_probability": 0.6159054204874836,
+        "response_delay": 2,
+        "response_dwell": 5,
+        "switch_times": [
+          161,
+          349
+        ],
+        "modes": [
+          "follower",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0070",
+      "seed": 100070,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.37538639020190007,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.6183026830018375,
+        "direction": -1,
+        "burst_entry": 0.07715808600870594,
+        "burst_persistence": 0.6403393806681598,
+        "detection_probability": 0.9300871811975602,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          116,
+          299
+        ],
+        "modes": [
+          "burst",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0071",
+      "seed": 100071,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.47429884226604285,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.32945931949436597,
+        "direction": -1,
+        "burst_entry": 0.06529727514532138,
+        "burst_persistence": 0.8897880728825385,
+        "detection_probability": 0.7944386987162542,
+        "response_delay": 3,
+        "response_dwell": 5,
+        "switch_times": [
+          196,
+          371
+        ],
+        "modes": [
+          "follower",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0072",
+      "seed": 100072,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6282754363508516,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 2,
+        "move_probability": 0.6174675057638096,
+        "direction": 1,
+        "burst_entry": 0.1158964255076702,
+        "burst_persistence": 0.7860110241860596,
+        "detection_probability": 0.938166324093764,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          245,
+          352
+        ],
+        "modes": [
+          "follower",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0073",
+      "seed": 100073,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6405721246446598,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 2,
+        "move_probability": 0.5789825046721693,
+        "direction": 1,
+        "burst_entry": 0.08324763010991439,
+        "burst_persistence": 0.6826975807988209,
+        "detection_probability": 0.7113528274926512,
+        "response_delay": 3,
+        "response_dwell": 4,
+        "switch_times": [
+          140,
+          329
+        ],
+        "modes": [
+          "follower",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0074",
+      "seed": 100074,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6161002675946139,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 2,
+        "move_probability": 0.649280189933056,
+        "direction": -1,
+        "burst_entry": 0.19030049373378288,
+        "burst_persistence": 0.6212134794205536,
+        "detection_probability": 0.8591259246492705,
+        "response_delay": 2,
+        "response_dwell": 2,
+        "switch_times": [
+          211,
+          334
+        ],
+        "modes": [
+          "sweep",
+          "burst",
+          "sweep"
+        ]
+      }
+    },
+    {
+      "id": "validation-0075",
+      "seed": 100075,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5960580532292384,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.38204040977827275,
+        "direction": -1,
+        "burst_entry": 0.09098043062551199,
+        "burst_persistence": 0.8601026443005277,
+        "detection_probability": 0.8128079487650308,
+        "response_delay": 1,
+        "response_dwell": 3,
+        "switch_times": [
+          222,
+          380
+        ],
+        "modes": [
+          "follower",
+          "burst",
+          "sweep"
+        ]
+      }
+    },
+    {
+      "id": "validation-0076",
+      "seed": 100076,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.591984099280459,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 4,
+        "move_probability": 0.3291994144317015,
+        "direction": 1,
+        "burst_entry": 0.19024541778507836,
+        "burst_persistence": 0.7698309050205925,
+        "detection_probability": 0.8489951733508287,
+        "response_delay": 3,
+        "response_dwell": 3,
+        "switch_times": [
+          145,
+          327
+        ],
+        "modes": [
+          "sweep",
+          "follower",
+          "sweep"
+        ]
+      }
+    },
+    {
+      "id": "validation-0077",
+      "seed": 100077,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5894269942873724,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.38369893260378884,
+        "direction": -1,
+        "burst_entry": 0.05492035416283828,
+        "burst_persistence": 0.7982199036837107,
+        "detection_probability": 0.7135298851139736,
+        "response_delay": 2,
+        "response_dwell": 4,
+        "switch_times": [
+          238,
+          389
+        ],
+        "modes": [
+          "burst",
+          "sweep",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0078",
+      "seed": 100078,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.6135436670820686,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.4125093866844308,
+        "direction": 1,
+        "burst_entry": 0.12338308772555523,
+        "burst_persistence": 0.7124825551904462,
+        "detection_probability": 0.671480148851592,
+        "response_delay": 1,
+        "response_dwell": 5,
+        "switch_times": [
+          280,
+          389
+        ],
+        "modes": [
+          "follower",
+          "burst",
+          "follower"
+        ]
+      }
+    },
+    {
+      "id": "validation-0079",
+      "seed": 100079,
+      "group": "switching",
+      "environment": {
+        "channels": 8,
+        "capacity": 8,
+        "arrival_slots": 500,
+        "max_deadline": 12,
+        "deadlines": [
+          4,
+          8,
+          12
+        ],
+        "arrival_probability": 0.5246777776823945,
+        "clean_success": 0.98,
+        "interference_multiplier": 0.02,
+        "retune_slots": 1,
+        "family": "switching",
+        "width": 3,
+        "move_probability": 0.34547524371341726,
+        "direction": 1,
+        "burst_entry": 0.1569725166036281,
+        "burst_persistence": 0.6304093134197041,
+        "detection_probability": 0.8281317617944117,
+        "response_delay": 3,
+        "response_dwell": 4,
+        "switch_times": [
+          180,
+          286
+        ],
+        "modes": [
+          "follower",
+          "sweep",
+          "follower"
+        ]
+      }
+    }
+  ],
+  "sha256": "aff1a1a1954dd99a5ccd74c5146802f086b15ac0e9cd3115b5f40e09b9aab863"
+}

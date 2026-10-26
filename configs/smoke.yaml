@@ -1,0 +1,12 @@
+environment:
+  arrival_slots: 40
+  family: none
+training:
+  history: 4
+  steps: 1200
+  warmup: 100
+  replay_capacity: 2000
+  batch_size: 32
+  validation_every: 600
+  epsilon_steps: 800
+  target_every: 50

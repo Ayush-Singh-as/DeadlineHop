@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: radio-rl
+Version: 0.1.0
+Summary: Deadline-aware wireless channel selection with partial feedback
+Requires-Python: >=3.11
+Requires-Dist: numpy>=1.26
+Requires-Dist: torch>=2.2
+Requires-Dist: gymnasium>=1.0
+Requires-Dist: PyYAML>=6
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: Pillow>=10
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: build>=1; extra == "dev"
+Provides-Extra: report
+Requires-Dist: reportlab>=4; extra == "report"
+Requires-Dist: pypdf>=5; extra == "report"
